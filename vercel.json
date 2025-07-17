@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/send_message.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/send_message",
+      "dest": "api/send_message.js"
+    }
+  ]
+}
